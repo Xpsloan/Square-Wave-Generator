@@ -1,0 +1,26 @@
+# Vivado project: keep the .xpr and source filesets, ignore
+# everything that Vivado regenerates from them.
+
+/Playground_DWDBS_swg.cache/
+/Playground_DWDBS_swg.gen/
+/Playground_DWDBS_swg.hw/
+/Playground_DWDBS_swg.ip_user_files/
+/Playground_DWDBS_swg.runs/
+/Playground_DWDBS_swg.sim/
+
+# Vivado logs/journals/temp files
+*.jou
+*.log
+*.str
+*.backup.log
+*.backup.jou
+.Xil/
+usage_statistics_webtalk.html
+
+# OS/editor cruft
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Local Claude Code tool config (machine-specific, not project source)
+.claude/settings.local.json
