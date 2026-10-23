@@ -1,0 +1,21 @@
+# Vivado project - generated/build directories (regenerated from SS_DWDBS_swg.srcs + .xpr)
+SS_DWDBS_swg.cache/
+SS_DWDBS_swg.gen/
+SS_DWDBS_swg.hw/
+SS_DWDBS_swg.ip_user_files/
+SS_DWDBS_swg.runs/
+SS_DWDBS_swg.sim/
+.Xil/
+
+# Vivado journals/logs
+*.jou
+*.log
+vivado_*.backup.jou
+vivado_*.backup.log
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+__pycache__/

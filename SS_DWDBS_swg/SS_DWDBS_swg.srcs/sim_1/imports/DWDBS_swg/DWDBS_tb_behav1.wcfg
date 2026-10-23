@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DWDBS_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DWDBS_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="29,701.666 ns"></ZoomStartTime>
+      <ZoomEndTime time="30,638.667 ns"></ZoomEndTime>
+      <Cursor1Time time="30,295.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="261"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/DWDBS_tb/clk_600" type="logic">
+      <obj_property name="ElementShortName">clk_600</obj_property>
+      <obj_property name="ObjectShortName">clk_600</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DWDBS_tb/clk_300" type="logic">
+      <obj_property name="ElementShortName">clk_300</obj_property>
+      <obj_property name="ObjectShortName">clk_300</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DWDBS_tb/nclk_300" type="logic">
+      <obj_property name="ElementShortName">nclk_300</obj_property>
+      <obj_property name="ObjectShortName">nclk_300</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DWDBS_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DWDBS_tb/phase_change" type="array">
+      <obj_property name="ElementShortName">phase_change[31:0]</obj_property>
+      <obj_property name="ObjectShortName">phase_change[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DWDBS_tb/dwdbs_square_wave_out" type="logic">
+      <obj_property name="ElementShortName">dwdbs_square_wave_out</obj_property>
+      <obj_property name="ObjectShortName">dwdbs_square_wave_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DWDBS_tb/dds_square_wave_out" type="logic">
+      <obj_property name="ElementShortName">dds_square_wave_out</obj_property>
+      <obj_property name="ObjectShortName">dds_square_wave_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DWDBS_tb/dut/pos_sample0_accum" type="array">
+      <obj_property name="ElementShortName">pos_sample0_accum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pos_sample0_accum[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DWDBS_tb/dut/pos_sample1_accum" type="array">
+      <obj_property name="ElementShortName">pos_sample1_accum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pos_sample1_accum[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DWDBS_tb/dut/neg_sample0_accum" type="array">
+      <obj_property name="ElementShortName">neg_sample0_accum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">neg_sample0_accum[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DWDBS_tb/dut/neg_sample1_accum" type="array">
+      <obj_property name="ElementShortName">neg_sample1_accum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">neg_sample1_accum[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
